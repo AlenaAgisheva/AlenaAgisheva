@@ -259,7 +259,7 @@ You can click the Preview link to take a look at your changes.
 Задание 25.
 >  root@c994fd369b6b:/# cd student root@d4e8f3ca43df:/student#
 
-# Лабораторная работа 1
+# Лабораторная работа 2
 
 ## Введение в python
 
