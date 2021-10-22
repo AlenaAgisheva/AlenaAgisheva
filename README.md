@@ -9,6 +9,7 @@ AlenaAgisheva/AlenaAgisheva is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 
+# Лабораторная работа 1
 1. 
 
 2. rmdir
@@ -16,37 +17,37 @@ You can click the Preview link to take a look at your changes.
 3. mkdir
 
 4.
-root@c994fd369b6b:~# uname -s
-Linux
+> root@c994fd369b6b:~# uname -s
+> Linux
 
 5.
-root@c994fd369b6b:~# uname -r
-4.19.0-16-amd64
+> root@c994fd369b6b:~# uname -r
+> 4.19.0-16-amd64
 
 6.
-root@c994fd369b6b:~# date
-Fri Oct 15 13:14:46 UTC 2021
+> root@c994fd369b6b:~# date
+> Fri Oct 15 13:14:46 UTC 2021
 
 7.
-cal october
+> cal october
 
 8.
-/
+> /
 
 9.
-clear
+> clear
 
 10.
-root@c994fd369b6b:~/classics# pwd
-/root/classics
+> root@c994fd369b6b:~/classics# pwd
+> /root/classics
 
 11.
-root@c994fd369b6b:~/classics# cd -
-/root
-или
-root@c994fd369b6b:/home# cd /root
-root@c994fd369b6b:~# pwd
-/root
+> root@c994fd369b6b:~/classics# cd -
+> /root
+> или
+> root@c994fd369b6b:/home# cd /root
+> root@c994fd369b6b:~# pwd
+> /root
 
 12.
 root@c994fd369b6b:~# ls -R
