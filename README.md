@@ -15,48 +15,49 @@ You can click the Preview link to take a look at your changes.
 - Изучить основные команды командной строки Linux
 - Закрепить знания при решении практических задач
 
-1. 
+Задание 1. 
+> root@c994fd369b6b:~# cd /home root@c994fd369b6b:/home# ls -F --color temp1/ temp2/ test/ user/ user1/ user2/ user3/ root@c994fd369b6b:/home# mkdir umar1 > root@c994fd369b6b:/home# ls -F --color temp1/ temp2/ test/ umar1/ user/ user1/ user2/ user3/
 
-2. 
+Задание 2. 
 > rmdir
 
 
-3. 
+Задание 3. 
 > mkdir
 
 
-4.
+Задание 4.
 > root@c994fd369b6b:~# uname -s
 > Linux
 
 
-5.
+Задание 5.
 > root@c994fd369b6b:~# uname -r
 > 4.19.0-16-amd64
 
 
-6.
+Задание 6.
 > root@c994fd369b6b:~# date
 > Fri Oct 15 13:14:46 UTC 2021
 
 
-7.
+Задание 7.
 > cal october
 
 
-8.
+Задание 8.
 > /
 
 
-9.
+Задание 9.
 > clear
 
 
-10.
+Задание 10.
 > root@c994fd369b6b:~/classics# pwd
 > /root/classics
 
-11.
+Задание 11.
 > root@c994fd369b6b:~/classics# cd -
 > /root
 > или
@@ -64,7 +65,7 @@ You can click the Preview link to take a look at your changes.
 > root@c994fd369b6b:~# pwd
 > /root
 
-12.
+Задание 12.
 > root@c994fd369b6b:~# ls -R
 > .:
 > Giza  classics  test
@@ -114,31 +115,31 @@ You can click the Preview link to take a look at your changes.
 > ./test:
 > subtest
 
-13.
+Задание 13.
 > root@c994fd369b6b:~# ls -a
 > .  ..  .bashrc  .profile  Giza  classics  test
 
-14. 
+Задание 14. 
 > root@c994fd369b6b:~# ls
 > Giza  classics  test
 
-16.
+Задание 16.
 > root@c994fd369b6b:~/classics# cd 
 > 1.pdf  text
 
-17. 
+Задание 17. 
 > root@c994fd369b6b:~# cd /etc
 > root@c994fd369b6b:/etc#
 
-18. 
+Задание 18. 
 > root@c994fd369b6b:~/classics# cd -
 > /root
 
-19.
+Задание 19.
 > root@c994fd369b6b:~# cd /etc
 > root@c994fd369b6b:/etc# 
 
-20. 
+Задание 20. 
 > root@c994fd369b6b:/etc# cat group
 > root:x:0:
 > daemon:x:1:
@@ -180,7 +181,7 @@ You can click the Preview link to take a look at your changes.
 > users:x:100:
 > nogroup:x:65534:
 
-21.
+Задание 21.
 > root@c994fd369b6b:/etc# cat group and passwd
 > root:x:0:
 > daemon:x:1:
@@ -242,7 +243,7 @@ You can click the Preview link to take a look at your changes.
 > nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
 > _apt:x:100:65534::/nonexistent:/usr/sbin/nologin
 
-22.
+Задание 22.
 > root@c994fd369b6b:/etc# head -n5 passwd
 > root:x:0:0:root:/root:/bin/bash
 > daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -250,28 +251,34 @@ You can click the Preview link to take a look at your changes.
 > sys:x:3:3:sys:/dev:/usr/sbin/nologin
 > sync:x:4:65534:sync:/bin:/bin/sync
 
+Задание 24.
+> root@c994fd369b6b:/etc# wc passwd 33 38 1561 passwd
+
+Задание 25.
+>  root@c994fd369b6b:/# cd student root@d4e8f3ca43df:/student#
+
 # Введение в python
-1.
+Задание 1.
 ```print("Good evening world") #это комментарий```
 
-2. 
+Задание 2. 
 ```print("Агишева Алена Владимировна", end="\n")```
 ```print("Р20Б1", end="\n")```
 ```print("21.03.2002", end="\n")```
 
-3.
+Задание 3.
 ```print("Саратов", end='\n')```
 
 ```print('Памятник «Журавли». Мемориальный комплекс «Журавли» установлен в память о жителях Саратова, погибших в годы Великой Отечественной войны. Он находится на территории парка Победы на Соколовой горе и возвышается над городом, что позволяет заметить силуэт монумента с расстояния 20 км. Архитектурный ансамбль состоит из нескольких частей, каждая из которых продумана до мелочей и обладает глубоким смыслом.', end='\n')```
 
 ```print('Набережная Космонавтов. Улица, протянувшаяся на 2 км вдоль Волги до Саратовского моста. В начале XX века на берегу располагались окруженные узкими улочками пристани, куда сваливали груз. Благоустройство территории началось только с приходом Советской власти и закончилось в 1950-х годах. Набережную оформили в монументальном стиле сталинского ампира. Здесь находятся несколько памятников и речной вокзал.', end='\n')```
 
-4. 
+Задание 4. 
 ```print("22 июня 1941 год,", "ЯПОНИЯ,США,СССР,ГЕРМАНИЯ,ВЕЛИКОБРИТАНИЯ", end='\n')```
 
 ```print("9 мая 1945 год, Победа СССР")```
 
-5. 
+Задание 5. 
 ```print("Ф.И.О", input(), end='\n')```
 
 ```print("Адрес проживания", input(), end='\n')```
@@ -280,17 +287,17 @@ You can click the Preview link to take a look at your changes.
 
 ```print("Контактный телефон", input(), end='\n')```
 
-6.
+Задание 6.
 ```print(input(), '^-^')```
 
-7.
+Задание 7.
 ```print('Алгебра и геометрия - 4', end='\n')```
 
 ```print('Инженерная графика - 4', end='\n')```
 
 ```print('Физика - 4', end='\n')```
 
-8. 
+Задание 8. 
 ```name1 = 'Соня'```
 
 ```name2 = 'Лена'```
@@ -309,7 +316,7 @@ You can click the Preview link to take a look at your changes.
 
 ```print(name1, '+', name2, '+', name3, 'любим делать вместе')```
 
-9.
+Задание 9.
 ```orange_stocks = 1051```
 
 ```print("Запасы апельсин на складе:", orange_stocks, "кг")```
