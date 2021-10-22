@@ -247,8 +247,7 @@ You can click the Preview link to take a look at your changes.
 
 ## Введение в python
 1.
-```print("Good evening world") #это комментарий
-```
+```print("Good evening world") #это комментарий```
 
 2. print("Агишева Алена Владимировна", end="\n")
 print("Р20Б1", end="\n")
