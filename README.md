@@ -13,34 +13,39 @@ You can click the Preview link to take a look at your changes.
 1. 
 
 2. 
-> rmdir
+``` rmdir
+```
 
 3. 
-> mkdir
+``` mkdir
+```
 
 4.
-> root@c994fd369b6b:~# uname -s
-
-> Linux
+``` root@c994fd369b6b:~# uname -s
+Linux
+```
 
 5.
-> root@c994fd369b6b:~# uname -r
-
-> 4.19.0-16-amd64
+``` root@c994fd369b6b:~# uname -r
+4.19.0-16-amd64
+```
 
 6.
-> root@c994fd369b6b:~# date
-
-> Fri Oct 15 13:14:46 UTC 2021
+```root@c994fd369b6b:~# date
+Fri Oct 15 13:14:46 UTC 2021
+```
 
 7.
-> cal october
+```cal october
+```
 
 8.
-> /
+``` /
+```
 
 9.
-> clear
+``` clear
+```
 
 10.
 > root@c994fd369b6b:~/classics# pwd
