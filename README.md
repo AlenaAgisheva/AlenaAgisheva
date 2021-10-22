@@ -279,26 +279,35 @@ You can click the Preview link to take a look at your changes.
 ```print(input(), '^-^')```
 
 7.
-```print('Алгебра и геометрия - 4', end='\n')
-print('Инженерная графика - 4', end='\n')
-print('Физика - 4', end='\n')```
+```print('Алгебра и геометрия - 4', end='\n')```
+
+```print('Инженерная графика - 4', end='\n')```
+
+```print('Физика - 4', end='\n')```
 
 8. 
-```name1 = 'Соня'
-name2 = 'Лена'
-name3 = 'Кристина'
-print(name1, '+', name2, '+', name3, 'любим делать вместе')
+```name1 = 'Соня'```
+
+```name2 = 'Лена'```
+
+```name3 = 'Кристина'```
+
+```print(name1, '+', name2, '+', name3, 'любим делать вместе')```
 
 или
 
-name1 = input()
-name2 = input()
-name3 = input()
-print(name1, '+', name2, '+', name3, 'любим делать вместе')```
+```name1 = input()```
+
+```name2 = input()```
+
+```name3 = input()```
+
+```print(name1, '+', name2, '+', name3, 'любим делать вместе')```
 
 9.
-```orange_stocks = 1051
-print("Запасы апельсин на складе:", orange_stocks, "кг")```
+```orange_stocks = 1051```
+
+```print("Запасы апельсин на складе:", orange_stocks, "кг")```
 
 ## Доп. задание:
 ``` n = 19
