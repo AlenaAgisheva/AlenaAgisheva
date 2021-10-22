@@ -259,7 +259,10 @@ You can click the Preview link to take a look at your changes.
 Задание 25.
 >  root@c994fd369b6b:/# cd student root@d4e8f3ca43df:/student#
 
-# Введение в python
+# Лабораторная работа 1
+
+## Введение в python
+
 Задание 1.
 
 ```print("Good evening world") #это комментарий```
