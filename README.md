@@ -337,7 +337,7 @@ You can click the Preview link to take a look at your changes.
 
 ```print("Запасы апельсин на складе:", orange_stocks, "кг")```
 
-## Доп. задание:
+Доп. задание:
 
 ```n = 19```
 
