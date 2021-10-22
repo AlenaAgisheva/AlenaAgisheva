@@ -12,20 +12,25 @@ You can click the Preview link to take a look at your changes.
 # Лабораторная работа 1
 1. 
 
-2. rmdir
+2. 
+> rmdir
 
-3. mkdir
+3. 
+> mkdir
 
 4.
 > root@c994fd369b6b:~# uname -s
+
 > Linux
 
 5.
 > root@c994fd369b6b:~# uname -r
+
 > 4.19.0-16-amd64
 
 6.
 > root@c994fd369b6b:~# date
+
 > Fri Oct 15 13:14:46 UTC 2021
 
 7.
