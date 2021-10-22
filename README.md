@@ -16,7 +16,9 @@ You can click the Preview link to take a look at your changes.
 - Закрепить знания при решении практических задач
 
 Задание 1. 
-> root@c994fd369b6b:~# cd /home root@c994fd369b6b:/home# ls -F --color temp1/ temp2/ test/ user/ user1/ user2/ user3/ root@c994fd369b6b:/home# mkdir umar1 > root@c994fd369b6b:/home# ls -F --color temp1/ temp2/ test/ umar1/ user/ user1/ user2/ user3/
+> root@c994fd369b6b:~# cd /home 
+> root@c994fd369b6b:/home# ls -F --color temp1/ temp2/ test/ user/ user1/ user2/ user3/ 
+> root@c994fd369b6b:/home# mkdir umar1 > root@c994fd369b6b:/home# ls -F --color temp1/ temp2/ test/ umar1/ user/ user1/ user2/ user3/
 
 Задание 2. 
 > rmdir
