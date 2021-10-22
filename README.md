@@ -263,7 +263,9 @@ You can click the Preview link to take a look at your changes.
 
 Задание 2. 
 ```print("Агишева Алена Владимировна", end="\n")```
+
 ```print("Р20Б1", end="\n")```
+
 ```print("21.03.2002", end="\n")```
 
 Задание 3.
