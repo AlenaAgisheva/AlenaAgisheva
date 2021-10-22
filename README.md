@@ -9,7 +9,7 @@ AlenaAgisheva/AlenaAgisheva is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 
-## _Лабораторная работа 1_
+## Лабораторная работа 1
 1. 
 
 2. 
@@ -246,7 +246,9 @@ You can click the Preview link to take a look at your changes.
 > sync:x:4:65534:sync:/bin:/bin/sync
 
 ## Введение в python
-1. print("Good evening world") #это комментарий
+1.
+```print("Good evening world") #это комментарий
+```
 
 2. print("Агишева Алена Владимировна", end="\n")
 print("Р20Б1", end="\n")
