@@ -9,9 +9,9 @@ AlenaAgisheva/AlenaAgisheva is a ✨ special ✨ repository because its `README.
 You can click the Preview link to take a look at your changes.
 --->
 
-## Лабораторная работа 1
+# Лабораторная работа 1
 
-# Цель работы:
+## Цель работы:
 - Изучить основные команды командной строки Linux
 - Закрепить знания при решении практических задач
 
