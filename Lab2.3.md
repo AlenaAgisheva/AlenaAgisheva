@@ -1,5 +1,6 @@
 # Лабораторная работа 13
 # Задача 1. 
+```
 x1 = int(input())
 y1 = int(input())
 x2 = int(input())
@@ -8,8 +9,10 @@ if abs(x1-x2) <=1 and abs(y1-y2) <=1:
     print('YES')
 else:
     print('NO')
-    
+```
+
 # Задача 2.
+```
 a = int(input())
 b = int(input())
 c = int(input())
@@ -19,8 +22,10 @@ if a == b or b == c or a == c:
     print('Равнобедренный')
 else:
     print('Разносторонний')
-   
+```
+
 # Задача 3.
+```
 a1 = int(input())
 b1 = int(input())
 a2 = int(input())
@@ -33,4 +38,4 @@ elif a3 == b3:
     print(a3)
 else:
     print('Пустое множество')
-    
+```    
