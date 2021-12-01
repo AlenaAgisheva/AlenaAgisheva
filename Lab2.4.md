@@ -3,7 +3,7 @@
 ```
 a = 1
 x = 3
-for n in range(0, 30):
+for n in range(30):
     a += (3n+2)*x**(n-1)
     print(a) 
 ```
