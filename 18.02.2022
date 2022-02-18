@@ -1,0 +1,133 @@
+## Задача №3828. Четные индексы
+```
+s = input().split()
+for i in range(0, len(s), 2):
+    print(a[i])
+```
+
+## Задача №3829. Четные элементы
+```
+s = input()
+a = [int(s) for s in s.split()]
+for i in a:
+    if int(i) % 2 == 0:
+       print(i, end=' ')
+```
+
+## Задача №3830. Количество положительных
+```
+s = input().split()
+count = 0
+for i in s:
+  if int(i) > 0:
+    count += 1
+print(count)
+```
+
+## Задача №3831. Больше предыдущего
+```
+s = [int(i) for i in input().split()]
+for i in range(1, len(s)):
+    if s[i] > s[i - 1]:
+        print(s[i])
+```
+
+## Задача №3832. Соседи одного знака
+```
+s = [int(i) for i in input().split()]
+for i in range(1, len(s)):
+    if s[i - 1] * a[i] > 0:
+        print(s[i - 1], s[i])
+        break
+```
+
+## Задача №3833. Больше своих соседей
+```
+count = 0 
+s = input().split(' ')
+for i in range(1, len(s)-1):
+    if int(s[i]) - int(s[i-1]) > 0 and int(s[i]) - int(s[i+1]) > 0:
+        count += 1
+print(count)
+```
+
+## Задача №3834. Наибольший элемент
+```
+s = [int(i) for i in input().split()]
+max = s[0]
+a = 0
+for i in range(1, len(s)):
+    if (s[i] > max):
+        max = s[i]
+        a = i
+print (max, a)
+```
+
+## Задача №3835. Наименьший положительный
+```
+l = list(input().split())
+min = 1000
+for i in range(len(l)):
+    s = int(l[i])
+    if (s < min) and (s > 0):
+        min = s
+print(min)
+```
+
+## Задача №3836. Наименьший нечетный
+```
+num = list(map(int, input().split()))
+min= 0
+for i in range(len(num)):
+    if num[i] % 2 == 1:
+        min = num[i]
+        break
+for i in range(len(num)):
+    if num[i] % 2 == 1:
+        if num[i] < min:
+            min = num[i]
+if min != 0:
+    print(min)
+else:
+    print(0)
+```
+
+## Задача №3837. Шеренга
+```
+s = [int(i) for i in input().split()]
+x = int(input())
+count = 0
+while count < len(a) and s[count] >= x:
+    count += 1
+print(count + 1)
+```
+
+## Задача №3838. Количество различных элементов
+```
+s = input().split()
+count = 0
+for i in range(len(s)):
+    for x in range(i+1, len(s)):
+        if s[i] != s[x]:
+            count += 1
+            break
+        else:
+            count=count
+print(count)
+```
+
+## Задача №3839. Вывести в обратном порядке
+```
+s = input().split()
+print(*reversed(s), sep = ' ')
+```
+
+## Задача №3840. Переставить в обратном порядке
+```
+s = list(input().split())
+s = [int(i) for i in s]
+for i in range(int(len(s)/2)):
+    s[i], s[len(s) - 1 - i] = s[len(s) - 1 - i], s[i]
+for i in s:
+    print(i, end = " ")
+```
