@@ -1,0 +1,49 @@
+Задача №3791. Длина отрезка
+
+def distance(x1, y1, x2, y2):
+  return ((x1 - x2) ** 2 + (y1 - y2) ** 2) **(1/2)
+x1 = float(input())
+x2 = float(input())
+y1 = float(input())
+y2 = float(input())
+print(distance(x1, x2, y1, y2))
+
+Задача №3790. Минимум 4 чисел
+
+def min4(a, b, c, d):
+    return min(min(min(a, b), c), d)
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input()) 
+print('минимум четырех чисел:', min4(a, b, c, d))
+
+def IsPointInSquare(x, y):
+    return (abs(x) <= 1) and (abs(y) <= 1)
+x = float(input())
+y = float(input())
+if (IsPointInSquare(x, y)):
+    print('YES')
+else:
+    print('NO')
+
+def IsPointInSquare(x, y):
+    return x ** 2 + y ** 2 <= 2 ** (1/2)
+x = float(input())
+y = float(input())
+if (IsPointInSquare(x, y)):
+    print('YES')
+else:
+    print('NO')
+    
+def IsPointInCircle(x, y, xc, yc, r):    
+  return (x - xc) ** 2 + (y - yc) ** 2 <= r * r
+x = float(input())
+y = float(input())
+xc = float(input())
+yc = float(input())
+r = float(input())
+if IsPointInCircle(x, y, xc, yc, r):
+  print('YES')
+else:
+  print('NO')
