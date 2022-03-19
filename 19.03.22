@@ -47,3 +47,24 @@ if IsPointInCircle(x, y, xc, yc, r):
   print('YES')
 else:
   print('NO')
+  
+  def IsPointInArea(x, y):
+    return (y - 2 * x >= 2 and x + y >= 0 and abs(x + 1)**2 + abs(y - 1)**2 <= 4)or (y - 2 * x <= 2 and x + y <= 0 and abs(x + 1) ** 2 +abs(y - 1) ** 2 >= 4)
+x1 = float(input())
+y1 = float(input())
+if IsPointInArea(x1, y1):
+    print('YES')
+else:
+    print('NO')
+    
+def IsPointInCircle(x, y, xc, yc, r):    
+  return (x - xc) ** 2 + (y - yc) ** 2 <= r * r
+x = float(input('Координата точки х'))
+y = float(input('Координата точки у'))
+xc = float(input('Центр круга х'))
+yc = float(input('Центр курга у'))
+r = float(input('Радиус круга'))
+if IsPointInCircle(x, y, xc, yc, r):
+  print('YES')
+else:
+  print('NO')
