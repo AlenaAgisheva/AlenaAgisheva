@@ -19,7 +19,7 @@ if __name__ == '__main__':
 app.run(debug = True)
 ```
  
-После чего создаем directory (каталог) templates (с другим названием flask может работать некорректно), а в нем создадим файл index.html
+После чего создаем directory (каталог) templates (с другим названием каталога flask может работать некорректно), а в нем создадим файл base.html
 
  ! Если после создания html файла базовая структура не отображается, то можем вывести ее, написав ! и нажав tab
 ```
@@ -37,8 +37,38 @@ app.run(debug = True)
 </body>
 </html>
 ```
-Отредактируем файл, добавив в него следующую строчку {% extends "bootstrap/base.html" %}
+Этот шаблон кода будет повторяться. Изменим 8 и 11 строчку кода, чтобы потом писать только нужный нам текст:
+```
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
+```
+ ! давать имя block можно любое (title, body, и т.д), главное чтобы названия не повторялись.
+ 
+Создаем новый файл index.html , после чего прописываем команду {% extends 'base.html'%} (как бы берем за основу шаблон base)
+```
+{% extends 'base.html'%}
 
+{% block title %}
+text 1
+{% endblock %}
+
+{% block body %}
+text 2
+{% endblock %}
+```
+ ! text 1 и text 2 - любой ваш текст
+ 
 Пробуем запустить сервер. Если сервер не запускается:
 deactivate and activate the virtual environment solved it
 deactivate . venv/bin/activate
