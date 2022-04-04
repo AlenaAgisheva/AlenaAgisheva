@@ -1,4 +1,4 @@
-## Flask bootstrap
+Flask bootstrap
 
 установка python3 -m pip install flask_bootstrap
 прведем код к виду
