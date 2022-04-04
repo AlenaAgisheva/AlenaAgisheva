@@ -1,5 +1,8 @@
 Flask bootstrap
 
+В новом проекте создаем файл app.py 
+
+Установка flack производится через терминал 
 установка python3 -m pip install flask_bootstrap
 прведем код к виду
 
