@@ -55,9 +55,9 @@ app.run(debug = True)
 ```
  ! давать имя block можно любое (title, body, и т.д), главное, чтобы названия не повторялись.
  
-Создаем новый файл index.html , после чего прописываем команду {% extends 'base.html'%} (как бы берем за основу шаблон base)
+Создаем новый файл index.html , после чего прописываем команду {% extends 'base.html' %} (как бы берем за основу шаблон base)
 ```
-{% extends 'base.html'%}
+{% extends 'base.html' %}
 
 {% block title %}
 text 1
