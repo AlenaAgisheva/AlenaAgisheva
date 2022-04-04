@@ -1,5 +1,4 @@
 ## Flask bootstrap
-(IDE PyCharm)
 
 Установка flask_bootstrap производится через терминал командой pip install flask_bootstrap
 
