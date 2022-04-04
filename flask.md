@@ -1,4 +1,4 @@
-Flask bootstrap
+## Flask bootstrap
 
 В новом проекте создаем файл app.py 
 
