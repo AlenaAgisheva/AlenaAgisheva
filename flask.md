@@ -1,10 +1,9 @@
 ## Flask bootstrap
+(IDE PyCharm)
 
-В новом проекте создаем файл app.py 
+Установка flask_bootstrap производится через терминал командой pip install flask_bootstrap
 
-Установка flack производится через терминал 
-установка python3 -m pip install flask_bootstrap
-прведем код к виду
+В новом проекте создаем файл app.py , прведем код к виду:
 
 from flask import Flask
 from flask import render_template
@@ -20,8 +19,8 @@ def index():
 if __name__ == '__main__':
 app.run(debug = True)
 
-создадим каталог(directory) templates, а в нем создадим файл index.html
-отредактируем файл, добавив в него следующую строчку
+После чего создаем directory(каталог) templates, а в нем создадим файл index.html
+Отредактируем файл, добавив в него следующую строчку
 {% extends "bootstrap/base.html" %}
 
 Пробуем запустить сервер. Если сервер не запускается
