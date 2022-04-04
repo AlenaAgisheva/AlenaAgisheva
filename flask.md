@@ -19,7 +19,7 @@ if __name__ == '__main__':
 app.run(debug = True)
 ```
 
-После чего создаем directory(каталог) templates, а в нем создадим файл index.html
+После чего создаем directory (каталог) # templates, а в нем создадим файл index.html
 Отредактируем файл, добавив в него следующую строчку
 {% extends "bootstrap/base.html" %}
 
