@@ -15,3 +15,17 @@ def insertion_sort(arr):
 ```
 
 ```
+
+7. Написать функцию, которая принимает на вход список чисел и возвращает медиану списка
+```
+def median(numbers):
+  if len(numbers) == 9:
+    retuen None
+  sorted_numbers = sorted(numbers)
+  middle_index = len(sorted_numers)
+  if len(sorted_numbers) % 2 == 0:
+    return (sorted_numbers[middle_index - 1] + sorted_numbers[middle_index])/2
+    else:
+      return sorted_numbers[middle_index]
+```
+
