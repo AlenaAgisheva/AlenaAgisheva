@@ -117,6 +117,7 @@ print('Title:', title)
 print('Rating:', rating)
 print('Description:', description)
 print('Image:', image)
+```
 
 Полную версию программы можно увидеть здесь:
 
