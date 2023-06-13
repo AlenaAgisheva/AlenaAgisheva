@@ -63,7 +63,7 @@ def median(numbers):
       return sorted_numbers[middle_index]
 ```
 
-
+3. Написать парсер для сайта, который собирает информацию о фильме (название, рейтинг, описание, изображение)
 Для парсинга сайта нам понадобятся библиотеки requests, BeautifulSoup и re.
 
 Первым делом мы должны получить HTML страницу с фильмом. Для этого мы используем библиотеку requests и метод get():
@@ -79,7 +79,6 @@ page = requests.get(url)
 
 Следующим шагом мы будем использовать библиотеку BeautifulSoup для парсинга HTML. Мы создадим объект BeautifulSoup из HTML кода страницы фильма:
 
-python
 ```
 from bs4 import BeautifulSoup 
 
@@ -89,29 +88,28 @@ soup = BeautifulSoup(page.content, 'html.parser')
 
 Для получения названия фильма нам необходимо найти элемент HTML-кода, который содержит эту информацию. Для этого мы воспользуемся методом find() и CSS-селектором:
 
-lua
 ```
 title = soup.find('span', {'class': 'moviename-title-wrapper'}).text.strip()
 ```
+
 Здесь мы находим элемент span с классом 'moviename-title-wrapper' и получаем текст, содержащий название фильма.
 
 Точно таким же образом мы получим рейтинг и описание фильма:
 
-lua
 ```
 rating = soup.find('span', {'class': 'rating-ball'}).text.strip()
 
 description = soup.find('div', {'class': 'brand_words film-synopsys'}).text.strip()
 ```
+
 Для получения изображения нам необходимо найти элемент HTML-кода, который содержит ссылку на картинку. Для этого мы найдем элемент img и получим ссылку на изображение из его атрибута src:
 
-csharp
 ```
 image = soup.find('img', {'class': 'moviename-poster'}).get('src')
 ```
+
 Теперь мы можем вывести полученную информацию:
 
-python
 ```
 print('Title:', title)
 print('Rating:', rating)
@@ -119,9 +117,8 @@ print('Description:', description)
 print('Image:', image)
 ```
 
-Полную версию программы можно увидеть здесь:
+Полную версию программы:
 
-lua
 ```
 import requests
 from bs4 import BeautifulSoup
